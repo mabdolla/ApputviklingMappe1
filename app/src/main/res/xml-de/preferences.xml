@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:key="preferenceslanguage"
+        android:defaultValue="no"
+        android:title="@string/language"
+        android:entryValues="@array/languageCodes"
+        android:entries="@array/languageNames"
+        />
+
+    <ListPreference
+        android:title="@string/chooseamount"
+        android:key="amountofq"
+        android:defaultValue="5"
+        android:entries="@array/questionLimitLabels"
+        android:entryValues="@array/questionLimitValues" />
+
+</PreferenceScreen>

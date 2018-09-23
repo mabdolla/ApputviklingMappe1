@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/questionstext"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:gravity="center_vertical"
+        android:textAlignment="center"
+        android:textSize="36sp" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/rightAnswersLabel"
+            android:textSize="24sp"
+            android:text="@string/riktige_svar"
+            android:layout_marginStart="10dp"
+            android:textAlignment="textStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/rightanswers"
+            android:textSize="24sp"
+            android:layout_marginStart="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/wrongAnswersLabel"
+            android:textSize="24sp"
+            android:layout_marginStart="10dp"
+            android:text="@string/gale_svar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/wrongAnswers"
+            android:textSize="24sp"
+            android:layout_marginStart="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/textFromInput1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textSize="36sp" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:columnCount="3">
+
+        <Button
+            android:id="@+id/buttonOne"
+            android:layout_width="103dp"
+            android:layout_height="wrap_content"
+            android:onClick="addNumber"
+            android:tag="1"
+            android:text="@string/buttonOne" />
+
+        <Button
+            android:id="@+id/buttonTwo"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:onClick="addNumber"
+            android:tag="2"
+            android:text="@string/buttonTwo" />
+
+        <Button
+            android:id="@+id/buttonThree"
+            android:layout_width="101dp"
+            android:layout_height="wrap_content"
+            android:onClick="addNumber"
+            android:tag="3"
+            android:text="@string/buttonThree" />
+
+        <Button
+            android:id="@+id/buttonFour"
+            android:layout_width="106dp"
+            android:layout_height="wrap_content"
+            android:onClick="addNumber"
+            android:tag="4"
+            android:text="@string/buttonFour" />
+
+        <Button
+            android:id="@+id/buttonFive"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:onClick="addNumber"
+            android:tag="5"
+            android:text="@string/buttonFive" />
+
+        <Button
+            android:id="@+id/buttonSix"
+            android:layout_width="103dp"
+            android:layout_height="74dp"
+            android:onClick="addNumber"
+            android:tag="6"
+            android:text="@string/buttonSix" />
+
+        <Button
+            android:id="@+id/buttonSeven"
+            android:layout_width="108dp"
+            android:layout_height="wrap_content"
+            android:onClick="addNumber"
+            android:tag="7"
+            android:text="@string/buttonSeven" />
+
+        <Button
+            android:id="@+id/buttonEight"
+            android:layout_width="94dp"
+            android:layout_height="wrap_content"
+            android:onClick="addNumber"
+            android:tag="8"
+            android:text="@string/buttonEight" />
+
+        <Button
+            android:id="@+id/buttonNine"
+            android:layout_width="104dp"
+            android:layout_height="wrap_content"
+            android:onClick="addNumber"
+            android:tag="9"
+            android:text="@string/buttonNine" />
+
+        <Button
+            android:id="@+id/buttonC"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonC" />
+
+        <Button
+            android:id="@+id/buttonZero"
+            android:layout_width="98dp"
+            android:layout_height="58dp"
+            android:text="@string/buttonZero" />
+
+        <Button
+            android:id="@+id/buttonEquals"
+            android:layout_width="102dp"
+            android:layout_height="58dp"
+            android:onClick="checkAnswer"
+            android:text="@string/buttonEquals" />
+
+    </GridLayout>
+
+
+</LinearLayout>

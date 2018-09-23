@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">S309856MAPPE1</string>
+    <string name="velg_språk">Velg språk</string>
+    <string name="antall_spørsmål">Antall spørsmål</string>
+    <string name="StatisticsHeader">Statistikk</string>
+    <string name="buttonOne">1</string>
+    <string name="buttonTwo">2</string>
+    <string name="buttonThree">3</string>
+    <string name="buttonFour">4</string>
+    <string name="buttonFive">5</string>
+    <string name="buttonSix">6</string>
+    <string name="buttonSeven">7</string>
+    <string name="buttonEight">8</string>
+    <string name="buttonNine">9</string>
+    <string name="buttonZero">0</string>
+    <string name="buttonC">C</string>
+    <string name="buttonEquals">=</string>
+    <string name="language" >språk</string>
+    <string name="startspill">Start spill</string>
+    <string name="sestatistikk">Se statistikk</string>
+    <string name="preferanser">Preferanser</string>
+    <string name="chooseamount">Velg antall</string>
+    <string name="rightanswer" type="id">Riktig svar!</string>
+
+
+    <string name="ok">Avslutt</string>
+    <string name="ikkeok">Avbryt</string>
+    <string name="skal_du_slutte_message">Du er ikke ferdig ennå, skal du virkelig slutte?</string>
+    <string name="nei">Nei</string>
+    <string name="ja">Ja</string>
+</resources>

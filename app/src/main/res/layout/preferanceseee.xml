@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="@string/velg_språk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/tysk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tysk" />
+
+    <Button
+        android:id="@+id/norsk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Norsk" />
+
+    <TextView
+        android:text="@string/antall_spørsmål"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/femspørsmål"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5 spørsmål" />
+
+    <Button
+        android:id="@+id/tispørsmål"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="10 spørsmål" />
+
+    <Button
+        android:id="@+id/tjuefemspørsmål"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="25 spørsmål" />
+
+</LinearLayout>

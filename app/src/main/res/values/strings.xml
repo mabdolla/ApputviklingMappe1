@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="riktige_svar">Riktige svar</string>
+    <string name="gale_svar">Gale svar</string>
+    <string name="skal_du_slutte">Skal du Slutte?</string>
+    <string name="skal_du_slutte_message">Du er ikke ferdig ennå, skal du virkelig slutte?</string>
+    <string name="nei">Nei</string>
+    <string name="ja">Ja</string>
+</resources>
